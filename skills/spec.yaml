@@ -36,9 +36,9 @@ commands:
       user: "1000"
       description: Install Caveman
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill diagnose -g -y"
-      user: "1000"
-      description: Install Diagnose
+    # - command: "npx skills add https://github.com/mattpocock/skills --skill diagnose -g -y"
+    #   user: "1000"
+    #   description: Install Diagnose
       
     - command: "npx skills add https://github.com/mattpocock/skills --skill tdd -g -y"
       user: "1000"
@@ -68,13 +68,13 @@ commands:
       user: "1000"
       description: Install Handoff
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill write-a-skill -g -y"
-      user: "1000"
-      description: Install Write A Skill
+    # - command: "npx skills add https://github.com/mattpocock/skills --skill write-a-skill -g -y"
+    #   user: "1000"
+    #   description: Install Write A Skill
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill zoom-out -g -y"
-      user: "1000"
-      description: Install Zoom Out
+    # - command: "npx skills add https://github.com/mattpocock/skills --skill zoom-out -g -y"
+    #   user: "1000"
+    #   description: Install Zoom Out
       
     - command: "npx skills add https://github.com/wshobson/agents --skill typescript-advanced-types -g -y"
       user: "1000"
