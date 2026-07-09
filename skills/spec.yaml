@@ -48,11 +48,11 @@ commands:
       user: "1000"
       description: Install Shadcn
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill to-issues -g -y"
+    - command: "npx skills add https://github.com/mattpocock/skills --skill to-tickets -g -y"
       user: "1000"
       description: Install To Issues
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill to-prd -g -y"
+    - command: "npx skills add https://github.com/mattpocock/skills --skill to-spec -g -y"
       user: "1000"
       description: Install To Prd
       
@@ -72,12 +72,28 @@ commands:
       user: "1000"
       description: Install Writing Great Skills
       
-    # - command: "npx skills add https://github.com/mattpocock/skills --skill zoom-out -g -y"
-    #   user: "1000"
-    #   description: Install Zoom Out
+    - command: "npx skills add https://github.com/mattpocock/skills --skill wayfinder -g -y"
+      user: "1000"
+      description: Install Wayfinder
       
     - command: "npx skills add https://github.com/wshobson/agents --skill typescript-advanced-types -g -y"
       user: "1000"
       description: Install Typescript Advanced Types
 
+    - command: "npx skills add https://github.com/mattpocock/skills --skill teach -g -y"
+      user: "1000"
+      description: Install Teach
+      
+    - command: "npx skills add https://github.com/mattpocock/skills --skill implement -g -y"
+      user: "1000"
+      description: Install Implement
+      
+    - command: "npx skills add https://github.com/mattpocock/skills --skill prototype -g -y"
+      user: "1000"
+      description: Install Prototype
+
+    - command: "npx skills add https://github.com/mattpocock/skills --skill ask-matt -g -y"
+      user: "1000"
+      description: Install Ask-matt
+      
       
