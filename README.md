@@ -38,7 +38,7 @@ then inside the sandbox to start/continue pi run :
 
 
 
-then load a model from lm studio run :
+then in another terminal load a model from lm studio run :
 
 	lms load
 
