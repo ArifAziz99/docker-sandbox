@@ -4,8 +4,6 @@ model - qwen/qwen3.6-35b-a3b
 
 model - qwen2.5-coder-3b
 
-start docker sandbox and use ai agent pi with local llm qwen3.6 
-
 ---
 
 open terminal pwsh
@@ -13,7 +11,11 @@ open terminal pwsh
 
 check existing docker sandbox with :
 
-	sbx or sbx ls
+	sbx
+
+or
+
+	sbx ls
 
 
 if none :
@@ -38,8 +40,14 @@ then inside the sandbox to start/continue pi run :
 
 
 
-then in another terminal load a model from lm studio run :
+then in another terminal:
+
+
+to start lm studio server run :
+
+	lms server start
+
+
+to load a model from lm studio run :
 
 	lms load
-
-note: start lmstudio server from it gui(app) if not already
