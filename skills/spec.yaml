@@ -68,9 +68,9 @@ commands:
       user: "1000"
       description: Install Handoff
       
-    - command: "npx skills add https://github.com/mattpocock/skills --skill writing-great-skills -g -y"
+    - command: "npx skills add https://github.com/mattpocock/skills --skill writing-for-agents -g -y"
       user: "1000"
-      description: Install Writing Great Skills
+      description: Install Writing For Agents
       
     - command: "npx skills add https://github.com/mattpocock/skills --skill wayfinder -g -y"
       user: "1000"
