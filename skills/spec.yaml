@@ -95,5 +95,9 @@ commands:
     - command: "npx skills add https://github.com/mattpocock/skills --skill ask-matt -g -y"
       user: "1000"
       description: Install Ask-matt
+
+    - command: "npx skills add https://github.com/googlechrome/modern-web-guidance --skill modern-web-guidance -g -y"
+      user: "1000"
+      description: Install Modern Web Guidance
       
       
