@@ -14,7 +14,7 @@ commands:
 
     - command: "npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices -g -y"
       user: "1000"
-      description: Install Vercel React Best practices
+      description: Install Vercel React Best Practices
       
     - command: "npx skills add https://github.com/mattpocock/skills --skill grill-me -g -y"
       user: "1000"
@@ -99,5 +99,17 @@ commands:
     - command: "npx skills add https://github.com/googlechrome/modern-web-guidance --skill modern-web-guidance -g -y"
       user: "1000"
       description: Install Modern Web Guidance
+
+    - command: "npx skills add https://github.com/anthropics/skills --skill frontend-design -g -y"
+      user: "1000"
+      description: Install Frontend Design
+
+    - command: "npx skills add https://github.com/greensock/gsap-skills -g -y"
+      user: "1000"
+      description: Install GSAP Skills
+
+    - command: "npx skills add https://github.com/motiondivision/ai-kit --skill motion -g -y"
+      user: "1000"
+      description: Install Motion AI Kit
       
       
